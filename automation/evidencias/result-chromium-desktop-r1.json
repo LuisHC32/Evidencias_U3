@@ -1,0 +1,316 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\Luis\\AppData\\Local\\node-win-x64\\node.exe",
+      "C:\\Users\\Luis\\Desktop\\U\\Unidad 3\\TESTING APLICADO AL DESARROLLO DE SISTEMAS\\Fase1\\automation\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--project=chromium-desktop",
+      "--reporter=json"
+    ],
+    "configFile": "C:\\Users\\Luis\\Desktop\\U\\Unidad 3\\TESTING APLICADO AL DESARROLLO DE SISTEMAS\\Fase1\\automation\\playwright.config.ts",
+    "rootDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium-desktop",
+        "name": "chromium-desktop",
+        "testDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox-desktop",
+        "name": "firefox-desktop",
+        "testDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium-mobile",
+        "name": "chromium-mobile",
+        "testDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "AUTO-CP-002-login-valido.spec.ts",
+      "file": "AUTO-CP-002-login-valido.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-002 — Login válido @CP-002",
+          "file": "AUTO-CP-002-login-valido.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "el usuario entra y ve su correo en Ajustes",
+              "ok": true,
+              "tags": [
+                "CP-002"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3051,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:28:43.454Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4dc71facb5003049d797-9dc0d239171d145f5c55",
+              "file": "AUTO-CP-002-login-valido.spec.ts",
+              "line": 11,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+      "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-003 — Contraseñas no coinciden @CP-003",
+          "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "bloquea el alta y muestra mensaje en español",
+              "ok": true,
+              "tags": [
+                "CP-003"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2245,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:28:46.662Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "646b7df1897c16b113ff-cc96ac9eeb79c2e33f43",
+              "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+              "line": 11,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+      "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-004 — Login contraseña incorrecta @CP-004",
+          "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+              "ok": true,
+              "tags": [
+                "CP-004"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3593,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:28:48.921Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e51a6bbb21557c7cf35b-3204bbbae6afb5efeed1",
+              "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+              "line": 12,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+      "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-009 — Código manual vacío @CP-009",
+          "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Procesar sin código muestra validación y no altera el inventario",
+              "ok": true,
+              "tags": [
+                "CP-009"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-desktop",
+                  "projectName": "chromium-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3223,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:28:52.530Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "46c12102d1640a1b1315-72c1f183aada55810167",
+              "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+              "line": 10,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-06T05:28:43.133Z",
+    "duration": 12770.845000000001,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

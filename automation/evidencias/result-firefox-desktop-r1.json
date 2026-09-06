@@ -1,0 +1,316 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\Luis\\AppData\\Local\\node-win-x64\\node.exe",
+      "C:\\Users\\Luis\\Desktop\\U\\Unidad 3\\TESTING APLICADO AL DESARROLLO DE SISTEMAS\\Fase1\\automation\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--project=firefox-desktop",
+      "--reporter=json"
+    ],
+    "configFile": "C:\\Users\\Luis\\Desktop\\U\\Unidad 3\\TESTING APLICADO AL DESARROLLO DE SISTEMAS\\Fase1\\automation\\playwright.config.ts",
+    "rootDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium-desktop",
+        "name": "chromium-desktop",
+        "testDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox-desktop",
+        "name": "firefox-desktop",
+        "testDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium-mobile",
+        "name": "chromium-mobile",
+        "testDir": "C:/Users/Luis/Desktop/U/Unidad 3/TESTING APLICADO AL DESARROLLO DE SISTEMAS/Fase1/automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "AUTO-CP-002-login-valido.spec.ts",
+      "file": "AUTO-CP-002-login-valido.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-002 — Login válido @CP-002",
+          "file": "AUTO-CP-002-login-valido.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "el usuario entra y ve su correo en Ajustes",
+              "ok": true,
+              "tags": [
+                "CP-002"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox-desktop",
+                  "projectName": "firefox-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10176,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:29:22.668Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4dc71facb5003049d797-8aaa2631ccb18b182654",
+              "file": "AUTO-CP-002-login-valido.spec.ts",
+              "line": 11,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+      "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-003 — Contraseñas no coinciden @CP-003",
+          "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "bloquea el alta y muestra mensaje en español",
+              "ok": true,
+              "tags": [
+                "CP-003"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox-desktop",
+                  "projectName": "firefox-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3694,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:29:33.618Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "646b7df1897c16b113ff-adc5f33be88aa374c46f",
+              "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+              "line": 11,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+      "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-004 — Login contraseña incorrecta @CP-004",
+          "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+              "ok": true,
+              "tags": [
+                "CP-004"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox-desktop",
+                  "projectName": "firefox-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4208,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:29:37.333Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e51a6bbb21557c7cf35b-963a213834db8c9f5ea7",
+              "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+              "line": 12,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+      "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AUTO-CP-009 — Código manual vacío @CP-009",
+          "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Procesar sin código muestra validación y no altera el inventario",
+              "ok": true,
+              "tags": [
+                "CP-009"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox-desktop",
+                  "projectName": "firefox-desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5496,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-06T05:29:41.556Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "46c12102d1640a1b1315-41991c066a732a1fc470",
+              "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+              "line": 10,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-06T05:29:22.339Z",
+    "duration": 25206.427,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

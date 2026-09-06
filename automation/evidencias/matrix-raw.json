@@ -1,0 +1,176 @@
+[
+  {
+    "project": "chromium-desktop",
+    "run": 1,
+    "exitCode": 0,
+    "ok": true,
+    "tests": [
+      {
+        "title": "el usuario entra y ve su correo en Ajustes",
+        "file": "AUTO-CP-002-login-valido.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "bloquea el alta y muestra mensaje en español",
+        "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+        "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "Procesar sin código muestra validación y no altera el inventario",
+        "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+        "status": "passed"
+      }
+    ],
+    "stderrTail": ""
+  },
+  {
+    "project": "chromium-desktop",
+    "run": 2,
+    "exitCode": 0,
+    "ok": true,
+    "tests": [
+      {
+        "title": "el usuario entra y ve su correo en Ajustes",
+        "file": "AUTO-CP-002-login-valido.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "bloquea el alta y muestra mensaje en español",
+        "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+        "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "Procesar sin código muestra validación y no altera el inventario",
+        "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+        "status": "passed"
+      }
+    ],
+    "stderrTail": ""
+  },
+  {
+    "project": "chromium-desktop",
+    "run": 3,
+    "exitCode": 0,
+    "ok": true,
+    "tests": [
+      {
+        "title": "el usuario entra y ve su correo en Ajustes",
+        "file": "AUTO-CP-002-login-valido.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "bloquea el alta y muestra mensaje en español",
+        "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+        "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "Procesar sin código muestra validación y no altera el inventario",
+        "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+        "status": "passed"
+      }
+    ],
+    "stderrTail": ""
+  },
+  {
+    "project": "firefox-desktop",
+    "run": 1,
+    "exitCode": 0,
+    "ok": true,
+    "tests": [
+      {
+        "title": "el usuario entra y ve su correo en Ajustes",
+        "file": "AUTO-CP-002-login-valido.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "bloquea el alta y muestra mensaje en español",
+        "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+        "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "Procesar sin código muestra validación y no altera el inventario",
+        "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+        "status": "passed"
+      }
+    ],
+    "stderrTail": ""
+  },
+  {
+    "project": "firefox-desktop",
+    "run": 2,
+    "exitCode": 0,
+    "ok": true,
+    "tests": [
+      {
+        "title": "el usuario entra y ve su correo en Ajustes",
+        "file": "AUTO-CP-002-login-valido.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "bloquea el alta y muestra mensaje en español",
+        "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+        "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "Procesar sin código muestra validación y no altera el inventario",
+        "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+        "status": "passed"
+      }
+    ],
+    "stderrTail": ""
+  },
+  {
+    "project": "firefox-desktop",
+    "run": 3,
+    "exitCode": 0,
+    "ok": true,
+    "tests": [
+      {
+        "title": "el usuario entra y ve su correo en Ajustes",
+        "file": "AUTO-CP-002-login-valido.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "bloquea el alta y muestra mensaje en español",
+        "file": "AUTO-CP-003-passwords-no-coinciden.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "niega el acceso y muestra mensaje de credenciales inválidas",
+        "file": "AUTO-CP-004-login-password-incorrecta.spec.ts",
+        "status": "passed"
+      },
+      {
+        "title": "Procesar sin código muestra validación y no altera el inventario",
+        "file": "AUTO-CP-009-codigo-manual-vacio.spec.ts",
+        "status": "passed"
+      }
+    ],
+    "stderrTail": ""
+  }
+]

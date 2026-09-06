@@ -1,0 +1,6 @@
+﻿"Código";"Producto";"Marca";"Formato";"Categoría";"Stock";"Unidad";"Precio unitario";"Valor en stock";"Stock mínimo";"Stock objetivo";"Estado";"Vencimiento";"Estado vencimiento"
+"7800000000000";"Arroz grano largo 1kg";"";"";"Despensa";"6";"un.";"1590";"9540";"1";"8";"Disponible";"";""
+"";"Atún en lata";"";"";"Despensa";"0";"un.";"0";"0";"1";"2";"Agotado";"";""
+"";"Leche descremada 1L";"";"";"Despensa";"0";"un.";"0";"0";"1";"2";"Agotado";"";""
+"";"Paracetamol 500mg";"";"";"Botiquín del hogar";"1";"un.";"0";"0";"1";"2";"Stock bajo";"2027-03-05";"Vigente"
+"";"Yogur vence hoy";"";"";"Despensa";"2";"un.";"0";"0";"1";"2";"Disponible";"2026-09-06";"Por vencer"

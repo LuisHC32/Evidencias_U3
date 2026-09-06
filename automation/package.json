@@ -1,0 +1,17 @@
+{
+  "name": "despensalo-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automatización Playwright de casos manuales CP-002, CP-003, CP-004 y CP-009 (despensalo.cl)",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium-desktop",
+    "test:firefox": "playwright test --project=firefox-desktop",
+    "test:once": "playwright test --project=chromium-desktop --project=firefox-desktop",
+    "test:matrix": "node scripts/run-matrix.mjs",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

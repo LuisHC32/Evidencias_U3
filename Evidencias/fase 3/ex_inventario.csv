@@ -1,0 +1,8 @@
+﻿"Código";"Producto";"Marca";"Formato";"Categoría";"Stock";"Unidad";"Precio unitario";"Valor en stock";"Stock mínimo";"Stock objetivo";"Estado";"Vencimiento";"Estado vencimiento"
+"7800000000000";"Arroz grano largo 1kg";"";"";"Despensa";"0";"un.";"1590";"0";"1";"8";"Agotado";"";""
+"";"Atún en lata";"";"";"Despensa";"0";"un.";"0";"0";"1";"2";"Agotado";"";""
+"";"Ibuprofeno 400mg";"";"";"Botiquín del hogar";"12";"un.";"0";"0";"2";"12";"Disponible";"2027-10-11";"Vigente"
+"";"Jarabe vencido QA";"";"";"Botiquín del hogar";"3";"un.";"0";"0";"1";"2";"Disponible";"2026-09-01";"Vencido"
+"";"Leche descremada 1L";"";"";"Despensa";"0";"un.";"0";"0";"1";"2";"Agotado";"";""
+"";"Paracetamol 500mg";"";"";"Botiquín del hogar";"1";"un.";"0";"0";"1";"2";"Stock bajo";"2027-03-05";"Vigente"
+"";"Yogur vence hoy";"";"";"Despensa";"2";"un.";"0";"0";"1";"2";"Disponible";"2026-09-06";"Por vencer"

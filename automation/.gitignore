@@ -1,0 +1,10 @@
+node_modules/
+playwright-report/
+blob-report/
+test-results/
+.env
+*.log
+.DS_Store
+evidencias/tmp/
+evidencias/run-*/
+evidencias/*.zip
